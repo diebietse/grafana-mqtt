@@ -1,0 +1,36 @@
+{
+  "type": "datasource",
+  "name": "simple mqtt",
+  "id": "diebietse-mqtt",
+  "metrics": true,
+  "streaming": true,
+  "info": {
+    "description": "",
+    "author": {
+      "name": "Hendrik van Wyk",
+      "url": ""
+    },
+    "keywords": [],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/grafana/simple-datasource"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/grafana/simple-datasource/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaVersion": "6.5.x",
+    "plugins": []
+  }
+}
